@@ -1,0 +1,10 @@
+# .gitignore
+# Bỏ qua các thư mục log của Airflow
+airflow_study/logs/
+
+# Bỏ qua các thư mục chứa các file tạm thời/PID
+airflow_study/tmp/
+airflow_study/pids/
+
+# Bỏ qua file biến môi trường (thường chứa thông tin nhạy cảm)
+airflow_study/.env
