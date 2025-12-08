@@ -1,4 +1,4 @@
-chay bash curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
+chay bash: curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
 --> Lệnh này sẽ tải về file docker-compose.yaml — file dùng để tạo toàn bộ Airflow (webserver, scheduler, database…).
 
 mkdir -p ./dags ./logs ./plugins
